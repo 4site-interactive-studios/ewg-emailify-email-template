@@ -89,6 +89,12 @@
 				.text-body-lg, .text-body-lg div, .text-body-lg p, .text-body-lg span, .text-body-lg a { font-size: 18px !important; }
 				.text-body, .text-body div, .text-body p, .text-body span, .text-body a { font-size: 16px !important; }
 				.text-kicker, .text-kicker div, .text-kicker p, .text-kicker span, .text-kicker a { font-size: 12px !important; letter-spacing: 4px !important; }
+
+				/* Center-align on mobile for elements that are left-aligned on desktop */
+				.mobile-center, .mobile-center div, .mobile-center p { text-align: center !important; }
+				td.mobile-center { text-align: center !important; }
+				td.mobile-center-btn > table { display: inline-block !important; }
+				td.mobile-center-btn { text-align: center !important; }
 			}
 		</mj-style>
 
@@ -245,20 +251,20 @@
 		<!-- Two-column: text left, image right -->
 		<mj-section background-color="#fffffe" padding="16px 0px">
 			<mj-column width="320px" padding="24px">
-				<mj-text mj-class="kicker green" css-class="text-kicker" align="left" padding-bottom="8px">
+				<mj-text mj-class="kicker green" css-class="text-kicker mobile-center" align="left" padding-bottom="8px">
 					<p>NEW YEAR</p>
 				</mj-text>
-				<mj-text mj-class="h1" css-class="text-h2" align="left" font-size="40px" padding-bottom="8px">
+				<mj-text mj-class="h1" css-class="text-h2 mobile-center" align="left" font-size="40px" padding-bottom="8px">
 					<p>Placeholder Header Three</p>
 				</mj-text>
-				<mj-text mj-class="green" css-class="text-body-lg" align="left" font-size="25px" font-weight="700" line-height="128%" padding-bottom="8px">
+				<mj-text mj-class="green" css-class="text-body-lg mobile-center" align="left" font-size="25px" font-weight="700" line-height="128%" padding-bottom="8px">
 					<p>Lorem ipsum dolor sit amet consectetur</p>
 				</mj-text>
-				<mj-text mj-class="body" css-class="text-body" align="left" color="#565450" padding-bottom="8px">
+				<mj-text mj-class="body" css-class="text-body mobile-center" align="left" color="#565450" padding-bottom="8px">
 					<p>Support EWG's work and receive our Sustainable Swaps gift box as a thank-you.</p>
 				</mj-text>
 				<mj-spacer height="16px" padding-bottom="8px"></mj-spacer>
-				<mj-button align="left" href="https://act.ewg.org/tQJ8Trmagk-B54WH3v0ysg2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" width="187px">Make Your Gift</mj-button>
+				<mj-button align="left" css-class="mobile-center-btn" href="https://act.ewg.org/tQJ8Trmagk-B54WH3v0ysg2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" width="187px">Make Your Gift</mj-button>
 			</mj-column>
 			<mj-column width="320px">
 				<mj-image alt="" fluid-on-mobile="true" align="left" src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/27ba9c0c91fd09fcbdcd41ca2ae55925.jpg" width="320px"></mj-image>
