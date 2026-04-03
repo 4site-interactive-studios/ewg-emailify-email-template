@@ -2,8 +2,8 @@
   "name": "ewg-email-template",
   "private": true,
   "scripts": {
-    "build": "mjml index.mjml -o index.html && mjml index-emailify.mjml -o index-emailify.html",
-    "validate": "mjml --validate index.mjml; mjml --validate index-emailify.mjml",
+    "build": "mjml index.mjml -o index.html && mjml emailify/index-emailify.mjml -o emailify/index-emailify.html",
+    "validate": "mjml --validate index.mjml; mjml --validate emailify/index-emailify.mjml",
     "serve": "node serve.js"
   },
   "devDependencies": {
