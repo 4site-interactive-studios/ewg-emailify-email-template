@@ -3,7 +3,13 @@
 		<mj-title></mj-title>
 		<mj-preview></mj-preview>
 		<mj-attributes>
-			<mj-all font-family="Arial, sans-serif"></mj-all>
+			<mj-all font-family="'Helvetica', 'Arial', sans-serif"></mj-all>
+			<mj-section border="none"></mj-section>
+			<mj-column border="none"></mj-column>
+			<mj-text padding="0px"></mj-text>
+			<mj-button border-radius="0" border="none" line-height="100%" target="_blank" vertical-align="middle" padding="0" inner-padding="20px 0px 20px 0px" font-size="10px" font-weight="700" text-transform="uppercase" letter-spacing="1.5px"></mj-button>
+			<mj-spacer padding="0"></mj-spacer>
+			<mj-image padding="0" height="auto" align="center"></mj-image>
 		</mj-attributes>
 		<mj-breakpoint width="639px"></mj-breakpoint>
 		<mj-style>
@@ -56,259 +62,235 @@
 		</mj-raw>
 	</mj-head>
 	<mj-body background-color="#dbe8e4" width="640px">
-		<mj-section background-color="#ebebeb" border="none" padding="8px 16px 0px 16px" text-align="left">
-			<mj-column background-color="transparent" border="none" vertical-align="middle" width="608px">
-				<mj-image align="center" alt="" fluid-on-mobile="false" height="auto" padding="0" src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/75f1a62ba9e0e0df84f68a18781f1345.png" width="73px"></mj-image>
+		<mj-section background-color="#ebebeb" padding="8px 16px 0px 16px">
+			<mj-column vertical-align="middle" width="608px">
+				<mj-image alt="" src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/75f1a62ba9e0e0df84f68a18781f1345.png" width="73px"></mj-image>
 			</mj-column>
 		</mj-section>
-		<mj-section background-color="#fffffe" border="none" padding="0px 16px 8px 16px" text-align="left">
-			<mj-column background-color="transparent" border="none" vertical-align="middle" width="608px">
-				<mj-image align="center" alt="" fluid-on-mobile="false" height="auto" padding="0" src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/e7513ee7e84d8fd908432f35f1aad632.png" width="73px"></mj-image>
+		<mj-section background-color="#fffffe" padding="0px 16px 8px 16px">
+			<mj-column vertical-align="middle" width="608px">
+				<mj-image alt="" src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/e7513ee7e84d8fd908432f35f1aad632.png" width="73px"></mj-image>
 			</mj-column>
 		</mj-section>
-		<mj-section background-color="#fffffe" border="none" padding="32px 32px 32px 32px" text-align="center">
-			<mj-column background-color="#fffffe" border="none" vertical-align="top" width="576px">
-				<mj-text align="center" color="#2b2b2b" font-family="'Helvetica', 'Arial', sans-serif" font-size="20px" font-weight="400" line-height="140%" padding-bottom="32px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:28px;font-size:20px;line-height:140%;"><span style="letter-spacing:0.2px;">Friend,</span></p><p style="Margin:0;mso-line-height-alt:28px;font-size:20px;line-height:140%;"><span style="letter-spacing:0.2px;">It&rsquo;s important to remember to look out for toxic pesticide residues. From apples to pears and kale to spinach,</span><span style="letter-spacing:1px;"> </span><span style="font-weight:700;color:#009a4f;letter-spacing:0.2px;">EWG's Shopper&rsquo;s Guide to Pesticides in Produce&TRADE;</span><span style="letter-spacing:1px;"> </span><span style="letter-spacing:0.2px;">found more than 75% of non-organic produce contains harmful pesticide residues, even after thorough washing!</span></p><p style="Margin:0;mso-line-height-alt:28px;font-size:20px;line-height:140%;"><span style="letter-spacing:0.2px;">Shop smarter and avoid pesticides with EWG's Dirty Dozen&TRADE; list of fruits and vegetables. We recommend you buy organic when possible to reduce your exposure to toxic pesticides. Learn more below.</span></p>
+		<mj-section background-color="#fffffe" padding="32px" text-align="center">
+			<mj-column background-color="#fffffe" vertical-align="top" width="576px">
+				<mj-text align="center" color="#2b2b2b" font-size="20px" line-height="140%" padding-bottom="32px">
+					<p style="Margin:0;">Friend,</p>
+					<p style="Margin:0;">It&rsquo;s important to remember to look out for toxic pesticide residues. From apples to pears and kale to spinach, <span style="font-weight:700;color:#009a4f;">EWG's Shopper&rsquo;s Guide to Pesticides in Produce&TRADE;</span> found more than 75% of non-organic produce contains harmful pesticide residues, even after thorough washing!</p>
+					<p style="Margin:0;">Shop smarter and avoid pesticides with EWG's Dirty Dozen&TRADE; list of fruits and vegetables. We recommend you buy organic when possible to reduce your exposure to toxic pesticides. Learn more below.</p>
 				</mj-text>
-				<mj-button align="center" background-color="#009a4f" border-radius="0" border="none" font-family="Helvetica, Arial, sans-serif" href="https://www.ewg.org/?gad_campaignid=6443465025&gad_source=1&gbraid=0AAAAAD_iHo4qHj2NHItB6VYt0BJ31OV34&gclid=EAIaIQobChMIipeiroKEkwMVrk5HAR17Yx4mEAAYASAAEgIo9PD_BwE" inner-padding="20px 0px 20px 0px" line-height="100%" padding-bottom="0" padding="0" target="_blank" vertical-align="middle" width="161px">
-					<span style="font-size:10px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#ffffff;line-height:100%;letter-spacing:1.5px;mso-line-height-alt:10px;">Learn More</span>
-				</mj-button>
+				<mj-button align="center" background-color="#009a4f" color="#ffffff" href="https://www.ewg.org/?gad_campaignid=6443465025&gad_source=1&gbraid=0AAAAAD_iHo4qHj2NHItB6VYt0BJ31OV34&gclid=EAIaIQobChMIipeiroKEkwMVrk5HAR17Yx4mEAAYASAAEgIo9PD_BwE" width="161px">Learn More</mj-button>
 			</mj-column>
 		</mj-section>
-		<mj-wrapper background-color="#fffffe" border="none" padding="16px 0px 16px 0px" text-align="center">
-			<mj-section background-color="#fffffe" border="none" padding="0" text-align="left">
-				<mj-column background-color="transparent" border="none" padding="0" vertical-align="middle" width="640px">
-					<mj-image align="center" alt="" fluid-on-mobile="false" height="auto" padding="0" src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/35244751428adab0cfbde96c6e3421d8.jpg" width="640px"></mj-image>
+		<mj-wrapper background-color="#fffffe" border="none" padding="16px 0px" text-align="center">
+			<mj-section background-color="#fffffe" padding="0">
+				<mj-column vertical-align="middle" width="640px" padding="0">
+					<mj-image alt="" src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/35244751428adab0cfbde96c6e3421d8.jpg" width="640px"></mj-image>
 				</mj-column>
 			</mj-section>
-			<mj-section background-color="#203a3b" border="none" padding="16px 20px 16px 20px" text-align="left">
-				<mj-column background-color="transparent" border="none" padding="0px 0px 38px 0px" vertical-align="middle" width="600px">
-					<mj-spacer height="4px" padding-bottom="12px" padding="0"></mj-spacer>
-					<mj-text align="center" color="#ffffff" font-family="'Helvetica', 'Arial', sans-serif" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="12px" padding="0px" text-transform="uppercase">
-						<p style="Margin:0;mso-line-height-alt:17px;font-size:14px;line-height:121%;"><span style="letter-spacing:9.8px;">Placeholder Kicker</span></p>
+			<mj-section background-color="#203a3b" padding="16px 20px">
+				<mj-column padding="0px 0px 38px 0px" vertical-align="middle" width="600px">
+					<mj-spacer height="4px" padding-bottom="12px"></mj-spacer>
+					<mj-text align="center" color="#ffffff" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="12px" text-transform="uppercase">
+						<p style="Margin:0;">Placeholder Kicker</p>
 					</mj-text>
-					<mj-text align="center" color="#ffffff" font-family="'Helvetica', 'Arial', sans-serif" font-size="45px" font-weight="400" line-height="129%" padding-bottom="12px" padding="0px">
-						<p style="Margin:0;mso-line-height-alt:58px;font-size:45px;line-height:129%;"><span style="letter-spacing:0.45px;">Placeholder H2</span></p>
+					<mj-text align="center" color="#ffffff" font-size="45px" line-height="129%" padding-bottom="12px">
+						<p style="Margin:0;">Placeholder H2</p>
 					</mj-text>
-					<mj-spacer height="8px" padding-bottom="12px" padding="0"></mj-spacer>
-					<mj-button align="center" background-color="#fffffe" border-radius="0" border="none" font-family="Helvetica, Arial, sans-serif" href="https://www.ewg.org/news-insights/news/2026/01/fda-reports-over-50-pfas-ingredients-intentionally-added-1700-personal?utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" inner-padding="20px 0px 20px 0px" line-height="100%" padding-bottom="0" padding="0" target="_blank" vertical-align="middle" width="161px">
-						<span style="font-size:10px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#532a18;line-height:100%;letter-spacing:1.5px;mso-line-height-alt:10px;">Learn More</span>
-					</mj-button>
+					<mj-spacer height="8px" padding-bottom="12px"></mj-spacer>
+					<mj-button align="center" background-color="#fffffe" color="#532a18" href="https://www.ewg.org/news-insights/news/2026/01/fda-reports-over-50-pfas-ingredients-intentionally-added-1700-personal?utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" width="161px">Learn More</mj-button>
 				</mj-column>
 			</mj-section>
 		</mj-wrapper>
-		<mj-wrapper background-color="#fffffe" border="none" padding="16px 0px 16px 0px" text-align="center">
-			<mj-section background-color="#203a3b" border="none" padding="16px 20px 16px 20px" text-align="left">
-				<mj-column background-color="transparent" border="none" padding="0px 0px 38px 0px" vertical-align="middle" width="600px">
-					<mj-spacer height="4px" padding-bottom="12px" padding="0"></mj-spacer>
-					<mj-text align="center" color="#ffffff" font-family="'Helvetica', 'Arial', sans-serif" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="12px" padding="0px" text-transform="uppercase">
-						<p style="Margin:0;mso-line-height-alt:17px;font-size:14px;line-height:121%;"><span style="letter-spacing:9.8px;">Placeholder Kicker</span></p>
+		<mj-wrapper background-color="#fffffe" border="none" padding="16px 0px" text-align="center">
+			<mj-section background-color="#203a3b" padding="16px 20px">
+				<mj-column padding="0px 0px 38px 0px" vertical-align="middle" width="600px">
+					<mj-spacer height="4px" padding-bottom="12px"></mj-spacer>
+					<mj-text align="center" color="#ffffff" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="12px" text-transform="uppercase">
+						<p style="Margin:0;">Placeholder Kicker</p>
 					</mj-text>
-					<mj-text align="center" color="#ffffff" font-family="'Helvetica', 'Arial', sans-serif" font-size="45px" font-weight="400" line-height="129%" padding-bottom="12px" padding="0px">
-						<p style="Margin:0;mso-line-height-alt:58px;font-size:45px;line-height:129%;"><span style="letter-spacing:0.45px;">Placeholder H2</span></p>
+					<mj-text align="center" color="#ffffff" font-size="45px" line-height="129%" padding-bottom="12px">
+						<p style="Margin:0;">Placeholder H2</p>
 					</mj-text>
-					<mj-spacer height="8px" padding-bottom="12px" padding="0"></mj-spacer>
-					<mj-button align="center" background-color="#fffffe" border-radius="0" border="none" font-family="'Helvetica', 'Arial', sans-serif" href="https://www.ewg.org/" inner-padding="20px 0px 20px 0px" line-height="100%" padding-bottom="0" padding="0" target="_blank" vertical-align="middle" width="161px">
-						<span style="font-size:10px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#532a18;line-height:100%;letter-spacing:1.5px;mso-line-height-alt:10px;">Learn More</span>
-					</mj-button>
+					<mj-spacer height="8px" padding-bottom="12px"></mj-spacer>
+					<mj-button align="center" background-color="#fffffe" color="#532a18" href="https://www.ewg.org/" width="161px">Learn More</mj-button>
 				</mj-column>
 			</mj-section>
-			<mj-section background-color="#fffffe" border="none" padding="0" text-align="left">
-				<mj-column background-color="transparent" border="none" padding="0" vertical-align="middle" width="640px">
-					<mj-image align="center" alt="" fluid-on-mobile="false" height="auto" padding="0" src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/35244751428adab0cfbde96c6e3421d8.jpg" width="640px"></mj-image>
+			<mj-section background-color="#fffffe" padding="0">
+				<mj-column vertical-align="middle" width="640px" padding="0">
+					<mj-image alt="" src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/35244751428adab0cfbde96c6e3421d8.jpg" width="640px"></mj-image>
 				</mj-column>
 			</mj-section>
 		</mj-wrapper>
-		<mj-wrapper background-color="#fffffe" border="none" padding="16px 0px 16px 0px" text-align="center">
-			<mj-section background-color="#203a3b" border="none" padding="16px 20px 16px 20px" text-align="left">
-				<mj-column background-color="transparent" border="none" vertical-align="middle" width="600px">
-					<mj-spacer height="4px" padding-bottom="12px" padding="0"></mj-spacer>
-					<mj-text align="center" color="#ffffff" font-family="'Helvetica', 'Arial', sans-serif" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="12px" padding="0px" text-transform="uppercase">
-						<p style="Margin:0;mso-line-height-alt:17px;font-size:14px;line-height:121%;"><span style="letter-spacing:9.8px;">Placeholder Kicker</span></p>
+		<mj-wrapper background-color="#fffffe" border="none" padding="16px 0px" text-align="center">
+			<mj-section background-color="#203a3b" padding="16px 20px">
+				<mj-column vertical-align="middle" width="600px">
+					<mj-spacer height="4px" padding-bottom="12px"></mj-spacer>
+					<mj-text align="center" color="#ffffff" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="12px" text-transform="uppercase">
+						<p style="Margin:0;">Placeholder Kicker</p>
 					</mj-text>
-					<mj-text align="center" color="#ffffff" font-family="'Helvetica', 'Arial', sans-serif" font-size="35px" font-weight="400" line-height="129%" padding-bottom="12px" padding="0px">
-						<p style="Margin:0;mso-line-height-alt:45px;font-size:35px;line-height:129%;"><span style="letter-spacing:0.35px;">H3. Lorem ipsum dolor sit amet consectetur. Ipsum metus nibh.</span></p>
+					<mj-text align="center" color="#ffffff" font-size="35px" line-height="129%" padding-bottom="12px">
+						<p style="Margin:0;">H3. Lorem ipsum dolor sit amet consectetur. Ipsum metus nibh.</p>
 					</mj-text>
-					<mj-text align="center" color="#ffffff" font-family="'Helvetica', 'Arial', sans-serif" font-size="25px" font-weight="400" line-height="140%" padding-bottom="12px" padding="0px">
-						<p style="Margin:0;mso-line-height-alt:35px;font-size:25px;line-height:140%;"><span style="letter-spacing:0.25px;">Placeholder body copy large</span></p>
+					<mj-text align="center" color="#ffffff" font-size="25px" line-height="140%" padding-bottom="12px">
+						<p style="Margin:0;">Placeholder body copy large</p>
 					</mj-text>
-					<mj-spacer height="8px" padding="0"></mj-spacer>
+					<mj-spacer height="8px"></mj-spacer>
 				</mj-column>
 			</mj-section>
-			<mj-section background-color="#203a3b" border="none" padding="0px 16px 38px 16px" text-align="left">
-				<mj-column background-color="transparent" border="none" padding="0" vertical-align="middle" width="50%">
-					<mj-button align="right" background-color="#cde4b8" border-radius="0" border="none" font-family="'Helvetica', 'Arial', sans-serif" href="https://www.ewg.org/" inner-padding="20px 0px 20px 0px" line-height="100%" padding="0" target="_blank" vertical-align="middle" width="104px">
-						<span style="font-size:10px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#203a3b;line-height:100%;letter-spacing:1.5px;mso-line-height-alt:10px;">Yes</span>
-					</mj-button>
+			<mj-section background-color="#203a3b" padding="0px 16px 38px 16px">
+				<mj-column vertical-align="middle" width="50%" padding="0">
+					<mj-button align="right" background-color="#cde4b8" color="#203a3b" href="https://www.ewg.org/" width="104px">Yes</mj-button>
 				</mj-column>
-				<mj-column background-color="transparent" border="none" padding="0" vertical-align="middle" width="50%">
-					<mj-button align="left" background-color="#fffffe" border-radius="0" border="none" font-family="'Helvetica', 'Arial', sans-serif" href="https://www.ewg.org/" inner-padding="20px 0px 20px 0px" line-height="100%" padding="0" target="_blank" vertical-align="middle" width="97px">
-						<span style="font-size:10px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#203a3b;line-height:100%;letter-spacing:1.5px;mso-line-height-alt:10px;">No</span>
-					</mj-button>
+				<mj-column vertical-align="middle" width="50%" padding="0">
+					<mj-button align="left" background-color="#fffffe" color="#203a3b" href="https://www.ewg.org/" width="97px">No</mj-button>
 				</mj-column>
 			</mj-section>
-			<mj-section background-color="#fffffe" border="none" padding="0" text-align="left">
-				<mj-column background-color="transparent" border="none" padding="0" vertical-align="middle" width="640px">
-					<mj-image align="center" alt="" fluid-on-mobile="false" height="auto" padding="0" src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/35244751428adab0cfbde96c6e3421d8.jpg" width="640px"></mj-image>
+			<mj-section background-color="#fffffe" padding="0">
+				<mj-column vertical-align="middle" width="640px" padding="0">
+					<mj-image alt="" src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/35244751428adab0cfbde96c6e3421d8.jpg" width="640px"></mj-image>
 				</mj-column>
 			</mj-section>
 		</mj-wrapper>
-		<mj-section background-color="transparent" background-position="center center" background-repeat="no-repeat" background-size="cover" background-url="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/90854d9bf2800356b1fbefd385fdfa96.jpg" border="none" padding="48px 0px 260px 0px" text-align="center">
-			<mj-column background-color="transparent" border="none" padding="24px 24px 24px 24px" vertical-align="top" width="100%">
-				<mj-text align="center" color="#000000" font-family="'Helvetica', 'Arial', sans-serif" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="16px" padding="0px" text-transform="uppercase">
-					<p style="Margin:0;mso-line-height-alt:17px;font-size:14px;line-height:121%;"><span style="letter-spacing:9.8px;">SHOULD THE FDA</span></p>
+		<mj-section background-url="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/90854d9bf2800356b1fbefd385fdfa96.jpg" background-size="cover" background-repeat="no-repeat" background-position="center center" padding="48px 0px 260px 0px" text-align="center">
+			<mj-column vertical-align="top" width="100%" padding="24px">
+				<mj-text align="center" color="#000000" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="16px" text-transform="uppercase">
+					<p style="Margin:0;">SHOULD THE FDA</p>
 				</mj-text>
-				<mj-text align="center" color="#000000" font-family="'Helvetica', 'Arial', sans-serif" font-size="35px" font-weight="400" line-height="129%" padding-bottom="16px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:45px;font-size:35px;line-height:129%;"><span style="letter-spacing:0.35px;">Lorem ipsum dolor sit amet consectetur. Vulputate fermentum interdum in at neque.</span></p>
+				<mj-text align="center" color="#000000" font-size="35px" line-height="129%" padding-bottom="16px">
+					<p style="Margin:0;">Lorem ipsum dolor sit amet consectetur. Vulputate fermentum interdum in at neque.</p>
 				</mj-text>
-				<mj-spacer height="8px" padding-bottom="16px" padding="0"></mj-spacer>
-				<mj-button align="center" background-color="#00a0b0" border-radius="0" border="none" font-family="Helvetica, Arial, sans-serif" href="https://act.ewg.org/nrfMs7W5QU6qMaHkaV4lMg2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" inner-padding="20px 0px 20px 0px" line-height="100%" padding-bottom="16px" padding="0" target="_blank" vertical-align="middle" width="154px">
-					<span style="font-size:10px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#ffffff;line-height:100%;letter-spacing:1.5px;mso-line-height-alt:10px;">Read More</span>
-				</mj-button>
-				<mj-spacer height="14px" padding="0"></mj-spacer>
+				<mj-spacer height="8px" padding-bottom="16px"></mj-spacer>
+				<mj-button align="center" background-color="#00a0b0" color="#ffffff" href="https://act.ewg.org/nrfMs7W5QU6qMaHkaV4lMg2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" padding-bottom="16px" width="154px">Read More</mj-button>
+				<mj-spacer height="14px"></mj-spacer>
 			</mj-column>
 		</mj-section>
-		<mj-section background-color="#fffffe" border="none" padding="16px 0px 16px 0px" text-align="left">
-			<mj-column background-color="transparent" border="none" padding="24px 24px 24px 24px" vertical-align="middle" width="320px">
-				<mj-text align="left" color="#009a4f" font-family="'Helvetica', 'Arial', sans-serif" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="8px" padding="0px" text-transform="uppercase">
-					<p style="Margin:0;mso-line-height-alt:17px;font-size:14px;line-height:121%;"><span style="letter-spacing:9.8px;">NEW YEAR</span></p>
+		<mj-section background-color="#fffffe" padding="16px 0px">
+			<mj-column vertical-align="middle" width="320px" padding="24px">
+				<mj-text align="left" color="#009a4f" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="8px" text-transform="uppercase">
+					<p style="Margin:0;">NEW YEAR</p>
 				</mj-text>
-				<mj-text align="left" color="#2b2b2b" font-family="'Helvetica', 'Arial', sans-serif" font-size="40px" font-weight="400" line-height="130%" padding-bottom="8px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:52px;font-size:40px;line-height:130%;"><span style="letter-spacing:0.4px;">Placeholder Header Three</span></p>
+				<mj-text align="left" color="#2b2b2b" font-size="40px" line-height="130%" padding-bottom="8px">
+					<p style="Margin:0;">Placeholder Header Three</p>
 				</mj-text>
-				<mj-text align="left" color="#009a4f" font-family="'Helvetica', 'Arial', sans-serif" font-size="25px" font-weight="700" line-height="128%" padding-bottom="8px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:32px;font-size:25px;line-height:128%;"><span style="letter-spacing:0.25px;">Lorem ipsum dolor sit amet consectetur</span></p>
+				<mj-text align="left" color="#009a4f" font-size="25px" font-weight="700" line-height="128%" padding-bottom="8px">
+					<p style="Margin:0;">Lorem ipsum dolor sit amet consectetur</p>
 				</mj-text>
-				<mj-text align="left" color="#565450" font-family="'Helvetica', 'Arial', sans-serif" font-size="20px" font-weight="400" line-height="140%" padding-bottom="8px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:28px;font-size:20px;line-height:140%;"><span style="letter-spacing:0.2px;">Support EWG's work and receive our Sustainable Swaps gift box as a thank-you.</span></p>
+				<mj-text align="left" color="#565450" font-size="20px" line-height="140%" padding-bottom="8px">
+					<p style="Margin:0;">Support EWG's work and receive our Sustainable Swaps gift box as a thank-you.</p>
 				</mj-text>
-				<mj-spacer height="16px" padding-bottom="8px" padding="0"></mj-spacer>
-				<mj-button align="left" background-color="#009a4f" border-radius="0" border="none" font-family="Helvetica, Arial, sans-serif" href="https://act.ewg.org/tQJ8Trmagk-B54WH3v0ysg2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" inner-padding="20px 0px 20px 0px" line-height="100%" padding-bottom="0" padding="0" target="_blank" vertical-align="middle" width="187px">
-					<span style="font-size:10px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#ffffff;line-height:100%;letter-spacing:1.5px;mso-line-height-alt:10px;">Make Your Gift</span>
-				</mj-button>
+				<mj-spacer height="16px" padding-bottom="8px"></mj-spacer>
+				<mj-button align="left" background-color="#009a4f" color="#ffffff" href="https://act.ewg.org/tQJ8Trmagk-B54WH3v0ysg2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" width="187px">Make Your Gift</mj-button>
 			</mj-column>
-			<mj-column background-color="transparent" border="none" vertical-align="middle" width="320px">
-				<mj-image align="left" alt="" fluid-on-mobile="true" padding="0" src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/27ba9c0c91fd09fcbdcd41ca2ae55925.jpg" width="320px"></mj-image>
+			<mj-column vertical-align="middle" width="320px">
+				<mj-image alt="" fluid-on-mobile="true" align="left" src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/27ba9c0c91fd09fcbdcd41ca2ae55925.jpg" width="320px"></mj-image>
 			</mj-column>
 		</mj-section>
-		<mj-section background-color="transparent" background-position="center center" background-repeat="no-repeat" background-size="cover" background-url="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/f3ab6181347f22cd31c1b3a1ac2ef85d.jpg" border="none" padding="160px 0px 160px 0px" text-align="left">
-			<mj-column background-color="transparent" border="none" padding="24px 24px 24px 24px" vertical-align="middle" width="50%">
-				<mj-text align="left" color="#2b2b2b" font-family="'Helvetica', 'Arial', sans-serif" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="16px" padding="0px" text-transform="uppercase">
-					<p style="Margin:0;mso-line-height-alt:17px;font-size:14px;line-height:121%;"><span style="letter-spacing:9.8px;">EWG&rsquo;s Guide to</span></p>
+		<mj-section background-url="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/f3ab6181347f22cd31c1b3a1ac2ef85d.jpg" background-size="cover" background-repeat="no-repeat" background-position="center center" padding="160px 0px">
+			<mj-column vertical-align="middle" width="50%" padding="24px">
+				<mj-text align="left" color="#2b2b2b" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="16px" text-transform="uppercase">
+					<p style="Margin:0;">EWG&rsquo;s Guide to</p>
 				</mj-text>
-				<mj-text align="left" color="#2b2b2b" font-family="'Helvetica', 'Arial', sans-serif" font-size="50px" font-weight="400" line-height="130%" padding-bottom="16px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:65px;font-size:50px;line-height:130%;"><span style="letter-spacing:0.5px;">Placeholder example</span></p>
+				<mj-text align="left" color="#2b2b2b" font-size="50px" line-height="130%" padding-bottom="16px">
+					<p style="Margin:0;">Placeholder example</p>
 				</mj-text>
-				<mj-spacer height="8px" padding-bottom="16px" padding="0"></mj-spacer>
-				<mj-button align="left" background-color="#ff5100" border-radius="0" border="none" font-family="Helvetica, Arial, sans-serif" href="https://act.ewg.org/nrfMs7W5QU6qMaHkaV4lMg2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" inner-padding="20px 0px 20px 0px" line-height="100%" padding-bottom="16px" padding="0" target="_blank" vertical-align="middle" width="154px">
-					<span style="font-size:10px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#ffffff;line-height:100%;letter-spacing:1.5px;mso-line-height-alt:10px;">Read More</span>
-				</mj-button>
-				<mj-spacer height="14px" padding="0"></mj-spacer>
+				<mj-spacer height="8px" padding-bottom="16px"></mj-spacer>
+				<mj-button align="left" background-color="#ff5100" color="#ffffff" href="https://act.ewg.org/nrfMs7W5QU6qMaHkaV4lMg2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" padding-bottom="16px" width="154px">Read More</mj-button>
+				<mj-spacer height="14px"></mj-spacer>
 			</mj-column>
-			<mj-column background-color="transparent" border="none" vertical-align="middle" width="50%">
+			<mj-column vertical-align="middle" width="50%">
 			</mj-column>
 		</mj-section>
-		<mj-section background-color="transparent" background-position="center center" background-repeat="no-repeat" background-size="cover" background-url="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/f3ab6181347f22cd31c1b3a1ac2ef85d.jpg" border="none" padding="30px 0px 290px 0px" text-align="left">
-			<mj-column background-color="transparent" border="none" padding="24px 24px 24px 24px" vertical-align="top" width="50%">
-				<mj-text align="left" color="#009a4f" font-family="'Helvetica', 'Arial', sans-serif" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="16px" padding="0px" text-transform="uppercase">
-					<p style="Margin:0;mso-line-height-alt:17px;font-size:14px;line-height:121%;"><span style="letter-spacing:9.8px;">EWG&rsquo;s Guide to</span></p>
+		<mj-section background-url="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/f3ab6181347f22cd31c1b3a1ac2ef85d.jpg" background-size="cover" background-repeat="no-repeat" background-position="center center" padding="30px 0px 290px 0px">
+			<mj-column vertical-align="top" width="50%" padding="24px">
+				<mj-text align="left" color="#009a4f" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="16px" text-transform="uppercase">
+					<p style="Margin:0;">EWG&rsquo;s Guide to</p>
 				</mj-text>
-				<mj-text align="left" color="#2b2b2b" font-family="'Helvetica', 'Arial', sans-serif" font-size="50px" font-weight="400" line-height="130%" padding-bottom="16px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:65px;font-size:50px;line-height:130%;"><span style="letter-spacing:0.5px;">Placeholder example</span></p>
+				<mj-text align="left" color="#2b2b2b" font-size="50px" line-height="130%" padding-bottom="16px">
+					<p style="Margin:0;">Placeholder example</p>
 				</mj-text>
-				<mj-spacer height="8px" padding-bottom="16px" padding="0"></mj-spacer>
-				<mj-button align="left" background-color="#009a4f" border-radius="0" border="none" font-family="Helvetica, Arial, sans-serif" href="https://act.ewg.org/nrfMs7W5QU6qMaHkaV4lMg2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" inner-padding="20px 0px 20px 0px" line-height="100%" padding-bottom="16px" padding="0" target="_blank" vertical-align="middle" width="154px">
-					<span style="font-size:10px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#ffffff;line-height:100%;letter-spacing:1.5px;mso-line-height-alt:10px;">Read More</span>
-				</mj-button>
-				<mj-spacer height="14px" padding="0"></mj-spacer>
+				<mj-spacer height="8px" padding-bottom="16px"></mj-spacer>
+				<mj-button align="left" background-color="#009a4f" color="#ffffff" href="https://act.ewg.org/nrfMs7W5QU6qMaHkaV4lMg2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" padding-bottom="16px" width="154px">Read More</mj-button>
+				<mj-spacer height="14px"></mj-spacer>
 			</mj-column>
-			<mj-column background-color="transparent" border="none" vertical-align="top" width="50%">
+			<mj-column vertical-align="top" width="50%">
 			</mj-column>
 		</mj-section>
-		<mj-wrapper background-color="#fffffe" background-position="center center" background-repeat="no-repeat" background-size="cover" background-url="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/04cdcdb871872ef6d1a4414d337d0df7.jpg" border="none" padding="316px 0px 16px 0px" text-align="center">
-			<mj-section background-color="transparent" border="none" padding="16px 20px 16px 20px" text-align="left">
-				<mj-column background-color="transparent" border="none" vertical-align="middle" width="600px">
-					<mj-spacer height="4px" padding-bottom="12px" padding="0"></mj-spacer>
-					<mj-text align="center" color="#ffffff" font-family="'Helvetica', 'Arial', sans-serif" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="12px" padding="0px" text-transform="uppercase">
-						<p style="Margin:0;mso-line-height-alt:17px;font-size:14px;line-height:121%;"><span style="letter-spacing:9.8px;">Placeholder Kicker</span></p>
+		<mj-wrapper background-color="#fffffe" background-url="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/04cdcdb871872ef6d1a4414d337d0df7.jpg" background-size="cover" background-repeat="no-repeat" background-position="center center" border="none" padding="316px 0px 16px 0px" text-align="center">
+			<mj-section padding="16px 20px">
+				<mj-column vertical-align="middle" width="600px">
+					<mj-spacer height="4px" padding-bottom="12px"></mj-spacer>
+					<mj-text align="center" color="#ffffff" font-size="14px" font-weight="700" letter-spacing="9px" line-height="121%" padding-bottom="12px" text-transform="uppercase">
+						<p style="Margin:0;">Placeholder Kicker</p>
 					</mj-text>
-					<mj-text align="center" color="#ffffff" font-family="'Helvetica', 'Arial', sans-serif" font-size="45px" font-weight="400" line-height="129%" padding-bottom="12px" padding="0px">
-						<p style="Margin:0;mso-line-height-alt:58px;font-size:45px;line-height:129%;"><span style="letter-spacing:0.45px;">Placeholder title for header two spanning multiple rows</span></p>
+					<mj-text align="center" color="#ffffff" font-size="45px" line-height="129%" padding-bottom="12px">
+						<p style="Margin:0;">Placeholder title for header two spanning multiple rows</p>
 					</mj-text>
-					<mj-spacer height="8px" padding="0"></mj-spacer>
+					<mj-spacer height="8px"></mj-spacer>
 				</mj-column>
 			</mj-section>
-			<mj-section background-color="transparent" border="none" padding="0px 16px 38px 16px" text-align="left">
-				<mj-column background-color="transparent" border="none" padding="0" vertical-align="middle" width="50%">
-					<mj-button align="right" background-color="#019fae" border-radius="0" border="none" font-family="'Helvetica', 'Arial', sans-serif" href="https://www.ewg.org/" inner-padding="20px 0px 20px 0px" line-height="100%" padding="0" target="_blank" vertical-align="middle" width="104px">
-						<span style="font-size:10px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#ffffff;line-height:100%;letter-spacing:1.5px;mso-line-height-alt:10px;">Yes</span>
-					</mj-button>
+			<mj-section padding="0px 16px 38px 16px">
+				<mj-column vertical-align="middle" width="50%" padding="0">
+					<mj-button align="right" background-color="#019fae" color="#ffffff" href="https://www.ewg.org/" width="104px">Yes</mj-button>
 				</mj-column>
-				<mj-column background-color="transparent" border="none" padding="0" vertical-align="middle" width="50%">
-					<mj-button align="left" background-color="#ff5100" border-radius="0" border="none" font-family="'Helvetica', 'Arial', sans-serif" href="https://www.ewg.org/" inner-padding="20px 0px 20px 0px" line-height="100%" padding="0" target="_blank" vertical-align="middle" width="97px">
-						<span style="font-size:10px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#ffffff;line-height:100%;letter-spacing:1.5px;mso-line-height-alt:10px;">No</span>
-					</mj-button>
+				<mj-column vertical-align="middle" width="50%" padding="0">
+					<mj-button align="left" background-color="#ff5100" color="#ffffff" href="https://www.ewg.org/" width="97px">No</mj-button>
 				</mj-column>
 			</mj-section>
 		</mj-wrapper>
-		<mj-section background-color="transparent" background-position="center center" background-repeat="no-repeat" background-size="cover" background-url="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/5875a0c66fa6021a789bfa45c2559390.jpg" border="none" padding="16px 0px 380px 0px" text-align="center">
-			<mj-column background-color="transparent" border="none" padding="24px 24px 24px 24px" vertical-align="top" width="100%">
-				<mj-text align="center" color="#2b2b2b" font-family="'Helvetica', 'Arial', sans-serif" font-size="30px" font-weight="400" line-height="130%" padding-bottom="24px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:39px;font-size:30px;line-height:130%;"><span style="letter-spacing:0.3px;">Trump administration backs Bayer in Supreme Court fight, putting corporate interests over Roundup victims</span></p>
+		<mj-section background-url="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/5875a0c66fa6021a789bfa45c2559390.jpg" background-size="cover" background-repeat="no-repeat" background-position="center center" padding="16px 0px 380px 0px" text-align="center">
+			<mj-column vertical-align="top" width="100%" padding="24px">
+				<mj-text align="center" color="#2b2b2b" font-size="30px" line-height="130%" padding-bottom="24px">
+					<p style="Margin:0;">Trump administration backs Bayer in Supreme Court fight, putting corporate interests over Roundup victims</p>
 				</mj-text>
-				<mj-button align="center" background-color="#203a3b" border-radius="0" border="none" font-family="Helvetica, Arial, sans-serif" href="https://act.ewg.org/nrfMs7W5QU6qMaHkaV4lMg2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" inner-padding="20px 0px 20px 0px" line-height="100%" padding-bottom="0" padding="0" target="_blank" vertical-align="middle" width="154px">
-					<span style="font-size:10px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#ffffff;line-height:100%;letter-spacing:1.5px;mso-line-height-alt:10px;">Read More</span>
-				</mj-button>
+				<mj-button align="center" background-color="#203a3b" color="#ffffff" href="https://act.ewg.org/nrfMs7W5QU6qMaHkaV4lMg2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" width="154px">Read More</mj-button>
 			</mj-column>
 		</mj-section>
-		<mj-section background-color="transparent" background-position="center center" background-repeat="no-repeat" background-size="cover" background-url="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/e3fe1bff9a3f0985d65823a17dd40c35.jpg" border="none" padding="32px 32px 32px 32px" text-align="left">
-			<mj-column background-color="transparent" border="none" vertical-align="middle" width="576px">
-				<mj-text align="left" color="#ffffff" font-family="'Helvetica', 'Arial', sans-serif" font-size="35px" font-weight="400" line-height="129%" padding-bottom="16px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:45px;font-size:35px;line-height:129%;"><span style="letter-spacing:0.35px;">EWG'S 30TH ANNIVERSARY</span></p>
+		<mj-section background-url="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/emailify/e3fe1bff9a3f0985d65823a17dd40c35.jpg" background-size="cover" background-repeat="no-repeat" background-position="center center" padding="32px">
+			<mj-column vertical-align="middle" width="576px">
+				<mj-text align="left" color="#ffffff" font-size="35px" line-height="129%" padding-bottom="16px">
+					<p style="Margin:0;">EWG'S 30TH ANNIVERSARY</p>
 				</mj-text>
-				<mj-text align="left" color="#ffffff" font-family="'Helvetica', 'Arial', sans-serif" font-size="20px" font-weight="400" line-height="140%" padding-bottom="16px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:28px;font-size:20px;line-height:140%;"><span style="letter-spacing:0.2px;">EWG is celebrating 30 years of helping you to protect your health and environment. Individuals like you account for more than half of EWG's revenue and are essential to our success.</span><span style="letter-spacing:1px;"> </span><a href="https://act.ewg.org/O6Wq1SkLXEam4cmOkmwkyA2?sourceid=1022286&utm_source=newsletter&utm_campaign=202401Newsletter8&utm_medium=email&utm_content=default&nvep=&hmac=&emci=e14c20b5-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" style="font-weight:700;color:#009a4f;letter-spacing:0.2px;text-decoration:none;" target="_blank"><span style="font-weight:700;color:#009a4f;letter-spacing:0.2px;text-decoration:none;">Help us celebrate this anniversary and fund the work you count on with a donation today.</span></a></p>
+				<mj-text align="left" color="#ffffff" font-size="20px" line-height="140%" padding-bottom="16px">
+					<p style="Margin:0;">EWG is celebrating 30 years of helping you to protect your health and environment. Individuals like you account for more than half of EWG's revenue and are essential to our success. <a href="https://act.ewg.org/O6Wq1SkLXEam4cmOkmwkyA2?sourceid=1022286&utm_source=newsletter&utm_campaign=202401Newsletter8&utm_medium=email&utm_content=default&nvep=&hmac=&emci=e14c20b5-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" style="font-weight:700;color:#009a4f;text-decoration:none;" target="_blank">Help us celebrate this anniversary and fund the work you count on with a donation today.</a></p>
 				</mj-text>
-				<mj-text align="left" color="#009a4f" font-family="'Helvetica', 'Arial', sans-serif" font-size="20px" font-weight="700" line-height="140%" padding-bottom="16px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:28px;font-size:20px;line-height:140%;"><span style="letter-spacing:0.2px;">CAN WE COUNT ON YOU TO JOIN OUR COMMUNITY OF OVER 400,000 SUPPORTERS TODAY?</span></p>
+				<mj-text align="left" color="#009a4f" font-size="20px" font-weight="700" line-height="140%" padding-bottom="16px">
+					<p style="Margin:0;">CAN WE COUNT ON YOU TO JOIN OUR COMMUNITY OF OVER 400,000 SUPPORTERS TODAY?</p>
 				</mj-text>
-				<mj-text align="left" color="#ffffff" font-family="'Helvetica', 'Arial', sans-serif" font-size="20px" font-weight="400" line-height="140%" padding-bottom="16px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:28px;font-size:20px;line-height:140%;"><span style="letter-spacing:0.2px;">Any amount makes a difference.</span></p>
+				<mj-text align="left" color="#ffffff" font-size="20px" line-height="140%" padding-bottom="16px">
+					<p style="Margin:0;">Any amount makes a difference.</p>
 				</mj-text>
-				<mj-spacer height="8px" padding-bottom="16px" padding="0"></mj-spacer>
-				<mj-button align="center" background-color="#009a4f" border-radius="0" border="none" font-family="Helvetica, Arial, sans-serif" href="https://act.ewg.org/O6Wq1SkLXEam4cmOkmwkyA2?sourceid=1022286&utm_source=newsletter&utm_campaign=202401Newsletter8&utm_medium=email&utm_content=default&nvep=&hmac=&emci=e14c20b5-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" inner-padding="25px 0px 25px 0px" line-height="100%" padding-bottom="0" padding="0" target="_blank" vertical-align="middle" width="187px">
-					<span style="font-size:13px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#ffffff;line-height:100%;letter-spacing:1.95px;mso-line-height-alt:13px;">Donate Now</span>
-				</mj-button>
+				<mj-spacer height="8px" padding-bottom="16px"></mj-spacer>
+				<mj-button align="center" background-color="#009a4f" color="#ffffff" font-size="13px" letter-spacing="1.95px" href="https://act.ewg.org/O6Wq1SkLXEam4cmOkmwkyA2?sourceid=1022286&utm_source=newsletter&utm_campaign=202401Newsletter8&utm_medium=email&utm_content=default&nvep=&hmac=&emci=e14c20b5-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" inner-padding="25px 0px 25px 0px" width="187px">Donate Now</mj-button>
 			</mj-column>
 		</mj-section>
-		<mj-section background-color="#009a4f" border="none" padding="16px 32px 16px 32px" text-align="left">
-			<mj-column background-color="transparent" border="none" vertical-align="middle" width="576px">
-				<mj-text align="center" color="#ffffff" font-family="'Helvetica', 'Arial', sans-serif" font-size="25px" font-weight="700" line-height="128%" padding="0px" text-transform="uppercase">
-					<p style="Margin:0;mso-line-height-alt:32px;font-size:25px;line-height:128%;"><span style="letter-spacing:0.25px;">Know your environment. <br/>Protect your health.</span></p>
+		<mj-section background-color="#009a4f" padding="16px 32px">
+			<mj-column vertical-align="middle" width="576px">
+				<mj-text align="center" color="#ffffff" font-size="25px" font-weight="700" line-height="128%" text-transform="uppercase">
+					<p style="Margin:0;">Know your environment. <br/>Protect your health.</p>
 				</mj-text>
 			</mj-column>
 		</mj-section>
-		<mj-section background-color="#fffffe" border="none" padding="32px 16px 32px 16px" text-align="left">
-			<mj-column background-color="transparent" border="none" vertical-align="middle" width="608px">
-				<mj-button align="center" background-color="#009a4f" border-radius="0" border="none" font-family="Helvetica, Arial, sans-serif" href="https://act.ewg.org/onlineactions/O6Wq1SkLXEam4cmOkmwkyA2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" inner-padding="0px 0px 0px 0px" line-height="100%" padding="0" target="_blank" vertical-align="middle" width="195px">
-					<span style="font-size:13px;font-family:'Helvetica', 'Arial', sans-serif;font-weight:700;text-transform:uppercase;color:#ffffff;line-height:492%;letter-spacing:3px;mso-line-height-alt:64px;">Learn More</span>
-				</mj-button>
+		<mj-section background-color="#fffffe" padding="32px 16px">
+			<mj-column vertical-align="middle" width="608px">
+				<mj-button align="center" background-color="#009a4f" color="#ffffff" font-size="13px" letter-spacing="3px" href="https://act.ewg.org/onlineactions/O6Wq1SkLXEam4cmOkmwkyA2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" inner-padding="0px" width="195px"><span style="line-height:492%;mso-line-height-alt:64px;">Learn More</span></mj-button>
 			</mj-column>
 		</mj-section>
-		<mj-section background-color="#ebebeb" border="none" padding="32px 32px 32px 32px" text-align="left">
-			<mj-column background-color="transparent" border="none" vertical-align="middle" width="576px">
-				<mj-text align="center" color="#000000" font-family="'Helvetica', 'Arial', sans-serif" font-size="13px" font-weight="700" line-height="185%" padding-bottom="8px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:24px;font-size:13px;line-height:185%;"><span style="font-weight:400;letter-spacing:0.5px;">Unsubscribe </span><span style="letter-spacing:0.25px;">| <a href="https://act.ewg.org/a/ewg-supporter-portal?secureToken=SampleEmailToken&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" style="letter-spacing:0.25px;color:#000000;text-decoration:none;" target="_blank"><span style="letter-spacing:0.25px;text-decoration:none;">MANAGE PREFERENCES</span></a></p>
+		<mj-section background-color="#ebebeb" padding="32px">
+			<mj-column vertical-align="middle" width="576px">
+				<mj-text align="center" color="#000000" font-size="13px" font-weight="700" line-height="185%" padding-bottom="8px">
+					<p style="Margin:0;"><span style="font-weight:400;">Unsubscribe </span>| <a href="https://act.ewg.org/a/ewg-supporter-portal?secureToken=SampleEmailToken&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" style="color:#000000;text-decoration:none;" target="_blank">MANAGE PREFERENCES</a></p>
 				</mj-text>
-				<mj-text align="center" color="#000000" font-family="'Helvetica', 'Arial', sans-serif" font-size="13px" font-weight="400" line-height="185%" padding-bottom="8px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:24px;font-size:13px;line-height:185%;"><span style="letter-spacing:0.5px;">EWG</span></p><p style="Margin:0;mso-line-height-alt:24px;font-size:13px;line-height:185%;"><span style="letter-spacing:0.5px;"> 1250 I Street, NW, Suite 1000, Washington, DC 20005</span></p><p style="Margin:0;mso-line-height-alt:24px;font-size:13px;line-height:185%;"><span style="letter-spacing:0.5px;"> 202-667-6982 | <a href="https://www.ewg.org/?nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" style="letter-spacing:0.5px;color:#000000;text-decoration:none;" target="_blank"><span style="letter-spacing:0.5px;text-decoration:none;">ewg.org</span></a></p>
+				<mj-text align="center" color="#000000" font-size="13px" line-height="185%" padding-bottom="8px">
+					<p style="Margin:0;">EWG</p>
+					<p style="Margin:0;">1250 I Street, NW, Suite 1000, Washington, DC 20005</p>
+					<p style="Margin:0;">202-667-6982 | <a href="https://www.ewg.org/?nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" style="color:#000000;text-decoration:none;" target="_blank">ewg.org</a></p>
 				</mj-text>
-				<mj-text align="center" color="#000000" font-family="'Helvetica', 'Arial', sans-serif" font-size="13px" font-weight="700" line-height="185%" padding-bottom="8px" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:24px;font-size:13px;line-height:185%;"><a href="http://www.ewg.org/support-our-work/ways-to-donate/stay-touch?nvep=&hmac=&emci=bf33715c-bc0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" style="letter-spacing:0.25px;color:#000000;text-decoration:none;" target="_blank"><span style="letter-spacing:0.25px;text-decoration:none;">Contact Us</span></a> | <a href="http://www.ewg.org/about/privacy?nvep=&hmac=&emci=bf33715c-bc0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" style="letter-spacing:0.25px;color:#000000;text-decoration:none;" target="_blank"><span style="letter-spacing:0.25px;text-decoration:none;">Privacy Policy</span></a> | <a href="http://www.ewg.org/disclaimer?nvep=&hmac=&emci=bf33715c-bc0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" style="letter-spacing:0.25px;color:#000000;text-decoration:none;" target="_blank"><span style="letter-spacing:0.25px;text-decoration:none;">Terms & Conditions</span></a></p>
+				<mj-text align="center" color="#000000" font-size="13px" font-weight="700" line-height="185%" padding-bottom="8px">
+					<p style="Margin:0;"><a href="http://www.ewg.org/support-our-work/ways-to-donate/stay-touch?nvep=&hmac=&emci=bf33715c-bc0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" style="color:#000000;text-decoration:none;" target="_blank">Contact Us</a> | <a href="http://www.ewg.org/about/privacy?nvep=&hmac=&emci=bf33715c-bc0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" style="color:#000000;text-decoration:none;" target="_blank">Privacy Policy</a> | <a href="http://www.ewg.org/disclaimer?nvep=&hmac=&emci=bf33715c-bc0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" style="color:#000000;text-decoration:none;" target="_blank">Terms & Conditions</a></p>
 				</mj-text>
-				<mj-text align="center" color="#000000" font-family="'Helvetica', 'Arial', sans-serif" font-size="13px" font-weight="400" line-height="185%" padding="0px">
-					<p style="Margin:0;mso-line-height-alt:24px;font-size:13px;line-height:185%;"><span style="letter-spacing:0.5px;">Copyright &copy; 2026, EWG. All Rights Reserved.</span></p>
+				<mj-text align="center" color="#000000" font-size="13px" line-height="185%">
+					<p style="Margin:0;">Copyright &copy; 2026, EWG. All Rights Reserved.</p>
 				</mj-text>
 			</mj-column>
 		</mj-section>
