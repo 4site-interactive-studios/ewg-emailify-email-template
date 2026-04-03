@@ -127,6 +127,7 @@
 		</mj-raw>
 	</mj-head>
 
+	<!-- Note: #fffffe (not #ffffff) is used intentionally to prevent dark mode auto-inversion in some email clients -->
 	<mj-body background-color="#dbe8e4" width="640px">
 
 		<!-- Preheader logos -->
@@ -366,7 +367,7 @@
 		<!-- Tagline banner -->
 		<mj-section background-color="#009a4f" padding="16px 32px">
 			<mj-column width="576px">
-				<mj-text mj-class="body-lg centered white" css-class="text-body-lg" font-weight="700" text-transform="uppercase">
+				<mj-text mj-class="body-lg centered white" css-class="text-body-lg" font-weight="700" text-transform="uppercase" padding-bottom="0">
 					<p>Know your environment. <br/>Protect your health.</p>
 				</mj-text>
 			</mj-column>
@@ -375,7 +376,7 @@
 		<!-- CTA button -->
 		<mj-section background-color="#fffffe" padding="32px 16px">
 			<mj-column width="608px">
-				<mj-button font-size="13px" letter-spacing="3px" href="https://act.ewg.org/onlineactions/O6Wq1SkLXEam4cmOkmwkyA2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" inner-padding="0px" width="195px"><span style="line-height:492%;mso-line-height-alt:64px;">Learn More</span></mj-button>
+				<mj-button font-size="13px" letter-spacing="3px" href="https://act.ewg.org/onlineactions/O6Wq1SkLXEam4cmOkmwkyA2?sourceid=1023696&utm_source=newsletter&utm_campaign=202602FebNews7&utm_medium=email&utm_content=default&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" inner-padding="25px 0px" width="195px">Learn More</mj-button>
 			</mj-column>
 		</mj-section>
 
