@@ -146,7 +146,7 @@
 		<mj-section background-color="#fffffe" padding="32px" text-align="center">
 			<mj-column background-color="#fffffe" vertical-align="top" width="576px">
 				<mj-text mj-class="body centered" css-class="text-body" padding-bottom="32px">
-					<p>Friend,</p>
+					<p>{{FirstName or 'Friend'}},</p>
 					<p>It&rsquo;s important to remember to look out for toxic pesticide residues. From apples to pears and kale to spinach, <span class="link-green">EWG's Shopper&rsquo;s Guide to Pesticides in Produce&TRADE;</span> found more than 75% of non-organic produce contains harmful pesticide residues, even after thorough washing!</p>
 					<p>Shop smarter and avoid pesticides with EWG's Dirty Dozen&TRADE; list of fruits and vegetables. We recommend you buy organic when possible to reduce your exposure to toxic pesticides. Learn more below.</p>
 				</mj-text>
