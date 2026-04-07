@@ -384,7 +384,7 @@
 		<mj-section background-color="#ebebeb" padding="32px">
 			<mj-column width="576px">
 				<mj-text mj-class="footer" font-weight="700">
-					<p><span style="font-weight:400;">Unsubscribe </span>| <a href="https://act.ewg.org/a/ewg-supporter-portal?secureToken=SampleEmailToken&nvep=&hmac=&emci=c973bf0e-bd0d-f111-a69a-000d3a57593f&emdi=ea000000-0000-0000-0000-000000000001&ceid=" class="link-inherit" target="_blank">MANAGE PREFERENCES</a></p>
+					<p><a href="{{UnsubscribeUrl}}" class="link-inherit" target="_blank">UNSUBSCRIBE</a> | <a href="https://act.ewg.org/a/ewg-supporter-portal?secureToken={{SecureToken}}" class="link-inherit" target="_blank">MANAGE PREFERENCES</a></p>
 				</mj-text>
 				<mj-text mj-class="footer">
 					<p>EWG</p>
