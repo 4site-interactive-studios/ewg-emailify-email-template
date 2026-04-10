@@ -1,0 +1,259 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>EWG</mj-title>
+    <mj-preview>Peaches, pears and spinach</mj-preview>
+    <mj-breakpoint width="660px" />
+
+    <mj-attributes>
+      <mj-all font-family="'Open Sans', Arial, sans-serif" />
+      <mj-body background-color="#ebebeb" width="640px" />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+      <mj-text color="#000000" font-size="15px" line-height="23px" padding="0" />
+      <mj-image padding="0" align="center" />
+      <mj-button
+        background-color="#009A4F"
+        color="#ffffff"
+        border-radius="0px"
+        font-size="13px"
+        font-weight="400"
+        inner-padding="18px 0"
+        letter-spacing="3px"
+        padding="0"
+      />
+    </mj-attributes>
+
+    <mj-style>
+      p { margin: 8px 0; }
+      a { text-decoration: none; }
+      .footer a {
+        color: #000000;
+        text-decoration: none;
+      }
+      .footer-strong a {
+        color: #000000;
+        text-decoration: none;
+        font-weight: 700;
+      }
+    </mj-style>
+
+    <mj-raw>
+      <meta name="format-detection" content="telephone=no">
+      <meta name="x-apple-disable-message-reformatting">
+    </mj-raw>
+  </mj-head>
+
+  <mj-body background-color="#ebebeb" width="640px">
+
+    <!-- top logo half -->
+    <mj-section background-color="#ebebeb" padding="10px 0 0 0">
+      <mj-column>
+        <mj-image
+          alt="EWG"
+          width="73px"
+          src="https://nvlupin.blob.core.windows.net/images/van/EWG/EWG/1/71381/images/EWG_Email_Logo-tophalf.png"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- bottom logo half -->
+    <mj-section background-color="#ffffff" padding="0">
+      <mj-column>
+        <mj-image
+          alt="EWG"
+          width="73px"
+          src="https://nvlupin.blob.core.windows.net/images/van/EWG/EWG/1/71381/images/EWG_Email_Logo-bottomhalf.png"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="8px 0 10px 0">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- intro text -->
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column>
+        <mj-text align="center">
+          {{FirstName or 'Friend'}}, In this year’s
+          <a href="https://www.ewg.org/foodnews/dirty-dozen.php?utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides" style="color:#009A4F; font-weight:700; text-decoration:none;">Shopper’s Guide to Pesticides in Produce</a>
+          EWG exposes the alarming rise in
+          <a href="https://www.ewg.org/foodnews/pears.php?utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides" style="color:#009A4F; font-weight:700; text-decoration:none;">pesticide residues on pears</a>.
+          95% of conventional pears tested positive for pesticide residues.&nbsp;Learn more below.
+        </mj-text>
+        <mj-spacer height="23px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- pears image -->
+    <mj-section background-color="#ffffff" padding="10px 0">
+      <mj-column>
+        <mj-image
+          href="https://www.ewg.org/foodnews/pears.php?utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides"
+          alt="Pesticides on pears"
+          src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/EWG_Email-SQ_SG-26_Info-Pears_C01.jpg"
+          width="632px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- petition text -->
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column>
+        <mj-spacer height="23px" />
+        <mj-text align="center">
+          Protect pesticide laws! Bayer-Monsanto is pressuring lawmakers to OVERTURN all local pesticide laws, forcing vulnerable communities to rely on dangerously lacking federal regulations.
+          <a href="https://act.ewg.org/nvJGQe981EizqA4Aq8QlgQ2?sourceid=1023767&utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides" style="color:#009A4F; font-weight:700; text-decoration:none;">Sign our petition calling on policymakers to protect our health and pesticide laws today!</a>
+        </mj-text>
+        <mj-spacer height="23px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- petition image -->
+    <mj-section background-color="#ffffff" padding="10px 0">
+      <mj-column>
+        <mj-image
+          href="https://act.ewg.org/nvJGQe981EizqA4Aq8QlgQ2?sourceid=1023767&utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides"
+          alt="Protect pesticide laws! - TAKE ACTION"
+          src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/EWG_Email-SQ_06.09_ShoppersPesticides_C01.jpg"
+          width="632px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- blueberries text -->
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column>
+        <mj-spacer height="23px" />
+        <mj-text align="center">
+          Pears aren’t the only produce item with a pesticide problem. 90% of blueberry samples were contaminated with pesticide residues, including pesticides linked to cancer and nervous system harm.
+          <a href="https://www.ewg.org/foodnews/blueberries.php?utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides" style="color:#009A4F; font-weight:700; text-decoration:none;">Learn more now!</a>
+        </mj-text>
+        <mj-spacer height="23px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- blueberries image -->
+    <mj-section background-color="#ffffff" padding="10px 0">
+      <mj-column>
+        <mj-image
+          href="https://www.ewg.org/foodnews/blueberries.php?utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides"
+          alt="Pesticides on blueberries"
+          src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/EWG_Email-SQ_SG-26_Info-Blueberries_C01.jpg"
+          width="632px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- spinach text -->
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column>
+        <mj-spacer height="23px" />
+        <mj-text align="center">
+          <a href="https://www.ewg.org/foodnews/spinach.php?utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides" style="color:#009A4F; font-weight:700; text-decoration:none;">Spinach</a>
+          is first on this year’s
+          <a href="https://www.ewg.org/foodnews/dirty-dozen.php?utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides" style="color:#009A4F; font-weight:700; text-decoration:none;">Dirty Dozen™ list</a>.
+          76% of spinach samples tested positive for permethrin, a neurotoxic pesticide banned in Europe.
+        </mj-text>
+        <mj-spacer height="23px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- spinach image -->
+    <mj-section background-color="#ffffff" padding="10px 0">
+      <mj-column>
+        <mj-image
+          href="https://www.ewg.org/foodnews/spinach.php?utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides"
+          alt="Pesticides on spinach"
+          src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/EWG_Email-SQ_SG-26_Info-Spinach_C01.jpg"
+          width="632px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- fundraising text -->
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column>
+        <mj-spacer height="23px" />
+        <mj-text align="center">
+          Help fight attacks against EWG’s work and donate to our
+          <a href="https://act.ewg.org/VhC7wzdkIE6Cy0EGmHQGVw2?sourceid=1023767&utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides" style="color:#009A4F; font-weight:700; text-decoration:none;">Stop Pesticide Pollution Campaign</a>.
+          If you give $20&nbsp;or more before Earth Day, we’ll send you
+          <a href="https://act.ewg.org/VhC7wzdkIE6Cy0EGmHQGVw2?sourceid=1023767&utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides" style="color:#009A4F; font-weight:700; text-decoration:none;">EWG’s Shopper’s Guide to Pesticides in Produce™ bag tag</a>
+          as a thank-you.
+        </mj-text>
+        <mj-spacer height="23px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- fundraising image -->
+    <mj-section background-color="#ffffff" padding="10px 0">
+      <mj-column>
+        <mj-image
+          href="https://act.ewg.org/VhC7wzdkIE6Cy0EGmHQGVw2?sourceid=1023767&utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides"
+          alt="EWG's Dirty Dozen™ - GET THE BAG TAG"
+          src="https://prod.cdn.everyaction.com/images/van/EWG/EWG/1/71381/images/EWG_Email-SQ_SG-26_Fundraising_Bagtag_C01.jpg"
+          width="632px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- donate button -->
+    <mj-section background-color="#ffffff" padding="12px 30px 20px 30px">
+      <mj-column>
+        <mj-button
+  href="https://act.ewg.org/onlineactions/O6Wq1SkLXEam4cmOkmwkyA2?sourceid=1023767&utm_source=newsletter&utm_campaign=202604FNLaunch4&utm_medium=email&utm_content=pesticides"
+  width="220px"
+  font-size="14px"
+  inner-padding="20px 0"
+  letter-spacing="2px"
+>
+  DONATE NOW
+</mj-button>
+</mj-column>
+</mj-section>
+    <!-- tagline bar -->
+    <mj-section background-color="#009A4F" padding="14px 0">
+      <mj-column>
+        <mj-text
+          align="center"
+          color="#ffffff"
+          font-size="24px"
+          line-height="30px"
+          padding="0"
+        >
+          Know your environment. Protect your health.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- footer -->
+    <mj-section background-color="#ebebeb" padding="30px 20px 0 20px">
+      <mj-column>
+        <mj-text align="center" font-size="12px" line-height="18px" css-class="footer footer-strong">
+          <a href="{{UnsubscribeUrl}}">UNSUBSCRIBE</a> |
+          <a href="https://act.ewg.org/a/ewg-supporter-portal?secureToken={{SecureToken}}">MANAGE PREFERENCES</a>
+        </mj-text>
+
+        <mj-text align="center" font-size="12px" line-height="18px" css-class="footer">
+          EWG<br />
+          1250 I Street, NW, Suite 1000, Washington, DC 20005<br />
+          202-667-6982 |
+          <a href="https://www.ewg.org/">ewg.org</a>
+        </mj-text>
+
+        <mj-text align="center" font-size="12px" line-height="18px" css-class="footer footer-strong">
+          <a href="http://www.ewg.org/support-our-work/ways-to-donate/stay-touch">Contact Us</a> |
+          <a href="http://www.ewg.org/about/privacy">Privacy Policy</a> |
+          <a href="http://www.ewg.org/disclaimer">Terms &amp; Conditions</a> |
+          Copyright © 2026, EWG. All Rights Reserved.
+        </mj-text>
+
+        <mj-spacer height="16px" />
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
