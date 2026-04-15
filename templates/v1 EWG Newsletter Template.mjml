@@ -1,0 +1,291 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>EWG</mj-title>
+    <mj-preview>EDIT: Preview text goes here</mj-preview>
+    <mj-breakpoint width="660px" />
+
+    <mj-attributes>
+      <mj-all font-family="'Open Sans', Arial, sans-serif" />
+      <mj-body background-color="#ebebeb" width="640px" />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+      <mj-text color="#000000" font-size="15px" line-height="23px" padding="0" />
+      <mj-image padding="0" align="center" />
+      <mj-button
+        background-color="#009A4F"
+        color="#ffffff"
+        border-radius="0px"
+        font-size="13px"
+        font-weight="400"
+        inner-padding="18px 0"
+        letter-spacing="3px"
+        padding="0"
+      />
+    </mj-attributes>
+
+    <mj-style>
+      p { margin: 8px 0; }
+      a { text-decoration: none; }
+
+      .footer a {
+        color: #000000;
+        text-decoration: none;
+      }
+
+      .footer-strong a {
+        color: #000000;
+        text-decoration: none;
+        font-weight: 700;
+      }
+    </mj-style>
+
+    <mj-raw>
+      <meta name="format-detection" content="telephone=no">
+      <meta name="x-apple-disable-message-reformatting">
+    </mj-raw>
+  </mj-head>
+
+  <mj-body background-color="#ebebeb" width="640px">
+
+    <!-- ================= HEADER ================= -->
+
+    <mj-section background-color="#ebebeb" padding="10px 0 0 0">
+      <mj-column>
+        <mj-image
+          alt="EWG"
+          width="73px"
+          src="https://nvlupin.blob.core.windows.net/images/van/EWG/EWG/1/71381/images/EWG_Email_Logo-tophalf.png"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0">
+      <mj-column>
+        <mj-image
+          alt="EWG"
+          width="73px"
+          src="https://nvlupin.blob.core.windows.net/images/van/EWG/EWG/1/71381/images/EWG_Email_Logo-bottomhalf.png"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="8px 0 10px 0">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ================= INTRO TEXT BLOCK ================= -->
+
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column>
+        <mj-text align="center">
+          {{FirstName or 'Friend'}}, EDIT: Add intro copy here.
+          <a href="https://www.ewg.org/" style="color:#009A4F; font-weight:700; text-decoration:none;">
+            Example inline link
+          </a>
+        </mj-text>
+        <mj-spacer height="23px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ================= IMAGE BLOCK TEMPLATE ================= -->
+    <!-- DUPLICATE THIS SECTION FOR EACH IMAGE -->
+    <!-- REQUIRED: Update LINK (href), IMAGE (src), and ALT TEXT -->
+    <!-- IMPORTANT: Images should ALWAYS be clickable -->
+
+    <mj-section background-color="#ffffff" padding="10px 0">
+      <mj-column>
+        <mj-image
+          href="https://www.ewg.org/"
+          alt="EDIT: Describe image or CTA"
+          src="https://prod.cdn.everyaction.com/images/REPLACE-IMAGE-1.jpg"
+          width="632px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- ================= TEXT BLOCK ================= -->
+
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column>
+        <mj-spacer height="23px" />
+        <mj-text align="center">
+          EDIT: Add body copy here.
+          <a href="https://www.ewg.org/" style="color:#009A4F; font-weight:700; text-decoration:none;">
+            Example inline link
+          </a>
+        </mj-text>
+        <mj-spacer height="23px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ================= IMAGE BLOCK TEMPLATE ================= -->
+    <!-- DUPLICATE THIS SECTION FOR EACH IMAGE -->
+    <!-- REQUIRED: Update LINK (href), IMAGE (src), and ALT TEXT -->
+    <!-- IMPORTANT: Images should ALWAYS be clickable -->
+
+    <mj-section background-color="#ffffff" padding="10px 0">
+      <mj-column>
+        <mj-image
+          href="https://www.ewg.org/"
+          alt="EDIT: Describe image or CTA"
+          src="https://prod.cdn.everyaction.com/images/REPLACE-IMAGE-2.jpg"
+          width="632px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- ================= TEXT BLOCK ================= -->
+
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column>
+        <mj-spacer height="23px" />
+        <mj-text align="center">
+          EDIT: Add body copy here.
+          <a href="https://www.ewg.org/" style="color:#009A4F; font-weight:700; text-decoration:none;">
+            Example inline link
+          </a>
+        </mj-text>
+        <mj-spacer height="23px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ================= IMAGE BLOCK TEMPLATE ================= -->
+    <!-- DUPLICATE THIS SECTION FOR EACH IMAGE -->
+    <!-- REQUIRED: Update LINK (href), IMAGE (src), and ALT TEXT -->
+    <!-- IMPORTANT: Images should ALWAYS be clickable -->
+
+    <mj-section background-color="#ffffff" padding="10px 0">
+      <mj-column>
+        <mj-image
+          href="https://www.ewg.org/"
+          alt="EDIT: Describe image or CTA"
+          src="https://prod.cdn.everyaction.com/images/REPLACE-IMAGE-3.jpg"
+          width="632px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- ================= TEXT BLOCK ================= -->
+
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column>
+        <mj-spacer height="23px" />
+        <mj-text align="center">
+          EDIT: Add body copy here.
+          <a href="https://www.ewg.org/" style="color:#009A4F; font-weight:700; text-decoration:none;">
+            Example inline link
+          </a>
+        </mj-text>
+        <mj-spacer height="23px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ================= IMAGE BLOCK TEMPLATE ================= -->
+    <!-- DUPLICATE THIS SECTION FOR EACH IMAGE -->
+    <!-- REQUIRED: Update LINK (href), IMAGE (src), and ALT TEXT -->
+    <!-- IMPORTANT: Images should ALWAYS be clickable -->
+
+    <mj-section background-color="#ffffff" padding="10px 0">
+      <mj-column>
+        <mj-image
+          href="https://www.ewg.org/"
+          alt="EDIT: Describe image or CTA"
+          src="https://prod.cdn.everyaction.com/images/REPLACE-IMAGE-4.jpg"
+          width="632px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- ================= OPTIONAL DONATION / CTA TEXT BLOCK ================= -->
+    <!-- DELETE THIS WHOLE SECTION IF NOT NEEDED -->
+
+    <mj-section background-color="#ffffff" padding="0 30px">
+      <mj-column>
+        <mj-spacer height="23px" />
+        <mj-text align="center">
+          EDIT: Add donation or CTA copy here.
+          <a href="https://www.ewg.org/" style="color:#009A4F; font-weight:700; text-decoration:none;">
+            Example CTA link
+          </a>
+        </mj-text>
+        <mj-spacer height="23px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ================= OPTIONAL DONATION / CTA IMAGE BLOCK ================= -->
+    <!-- DELETE THIS WHOLE SECTION IF NOT NEEDED -->
+    <!-- REQUIRED: Update LINK (href), IMAGE (src), and ALT TEXT -->
+
+    <mj-section background-color="#ffffff" padding="10px 0">
+      <mj-column>
+        <mj-image
+          href="https://www.ewg.org/"
+          alt="EDIT: Donation image description"
+          src="https://prod.cdn.everyaction.com/images/REPLACE-IMAGE-CTA.jpg"
+          width="632px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- ================= OPTIONAL DONATE BUTTON ================= -->
+    <!-- DELETE THIS WHOLE SECTION IF NOT NEEDED -->
+    <!-- UPDATE BUTTON LINK -->
+
+    <mj-section background-color="#ffffff" padding="12px 30px 20px 30px">
+      <mj-column>
+        <mj-button
+          href="https://www.ewg.org/"
+          width="220px"
+          font-size="14px"
+          inner-padding="20px 0"
+          letter-spacing="2px"
+        >
+          DONATE NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- ================= TAGLINE ================= -->
+
+    <mj-section background-color="#009A4F" padding="14px 0">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="24px" line-height="30px">
+          Know your environment. Protect your health.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <mj-section background-color="#ebebeb" padding="30px 20px 0 20px">
+      <mj-column>
+
+        <mj-text align="center" font-size="12px" css-class="footer footer-strong">
+          <a href="{{UnsubscribeUrl}}">UNSUBSCRIBE</a> |
+          <a href="https://act.ewg.org/a/ewg-supporter-portal?secureToken={{SecureToken}}">
+            MANAGE PREFERENCES
+          </a>
+        </mj-text>
+
+        <mj-text align="center" font-size="12px" css-class="footer">
+          EWG<br />
+          1250 I Street, NW, Suite 1000, Washington, DC 20005<br />
+          202-667-6982 |
+          <a href="https://www.ewg.org/">ewg.org</a>
+        </mj-text>
+
+        <mj-text align="center" font-size="12px" css-class="footer footer-strong">
+          <a href="http://www.ewg.org/support-our-work/ways-to-donate/stay-touch">Contact Us</a> |
+          <a href="http://www.ewg.org/about/privacy">Privacy Policy</a> |
+          <a href="http://www.ewg.org/disclaimer">Terms &amp; Conditions</a> |
+          Copyright © 2026, EWG. All Rights Reserved.
+        </mj-text>
+
+        <mj-spacer height="16px" />
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
