@@ -2,6 +2,8 @@
 
 This repository contains the MJML and HTML code, exported from Figma, for EWG's email template built with Emailify.
 
+EWG Hosted Fork: https://github.com/cdumasius/ewg-mjml-email-templates
+
 ## Files
 - `index.mjml`: The MJML code for the email template.
 - `img/`: A folder containing any images used in the email template.
